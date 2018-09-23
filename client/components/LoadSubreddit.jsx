@@ -3,7 +3,8 @@ import {connect} from 'react-redux'
 import {fetchPosts} from '../actions'
 
 const LoadSubreddit = ({dispatch}) => (
-  <button onClick={() => dispatch(fetchPosts('newzealand'))}>
+  <button onClick={() =>
+    dispatch(fetchPosts('newzealand'))}>
     Fetch Posts
   </button>
 )
